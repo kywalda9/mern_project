@@ -29,4 +29,4 @@ const Map = (props) => {
 
 export default Map;
 
-// API Key: AIzaSyAMedEg8CT62DiX33doyjar2eznwzHEu7M;
+// AIzaSyAMedEg8CT62DiX33doyjar2eznwzHEu7M7spdais2;
