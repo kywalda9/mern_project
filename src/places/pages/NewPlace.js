@@ -6,7 +6,7 @@ import {
   VALIDATOR_REQUIRE,
   VALIDATOR_MINLENGTH,
 } from "../../shared/util/validators";
-import "./NewPlace.css";
+import "./PlaceForm.css";
 
 const formReducer = (state, action) => {
   switch (action.type) {
@@ -56,9 +56,9 @@ const NewPlace = () => {
     });
   }, []);
 
-  const placeSubmitHandler = event => {
-    event.preventDefault();
-    console.log(formState.inputs); // send this to the backend!
+  const placeSubmitHandler = (event) => {
+    event.preventDefaultHandler();
+    console.log(formState.inputs); // send this to the backend
   };
 
   return (
