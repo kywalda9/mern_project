@@ -26,7 +26,6 @@ const DUMMY_PLACES = [
     address: "20 W 34th St, New York, NY 10001, Vereinigte Staaten",
     location: {
       lat: 40.7484405,
-      lng: -73.9878531,
     },
     creator: "u2",
   },
@@ -45,6 +44,22 @@ const DUMMY_PLACES = [
     },
     creator: "u1",
     zoom: 11,
+  },
+
+  {
+    id: "p4",
+    title: "Geierlay Bridge",
+    description:
+      "TThe Geierlay is a suspension bridge in the low mountain range of the Hunsrück in central Germany. It was opened in 2015.[1] It has a span range of 360 metres (1,180 ft) and is up to 100 metres (330 ft) above ground.",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/DE-Geierlay-02.jpg/800px-DE-Geierlay-02.jpg",
+    address: "56290 Mörsdorf",
+    location: {
+      lat: 50.0899875,
+      lng: 7.3389717,
+    },
+    creator: "u1",
+    zoom: 17,
   },
 ];
 
