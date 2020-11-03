@@ -9,6 +9,12 @@ const Users = () => {
             name: 'Thomas Bohn',
             image: '/profile.jpg',
             places: 3
+        },
+        {
+            id: 'u2',
+            name: 'Sandra Schumacher',
+            image: '/profile.jpg',
+            places: 3
         }
     ];
 
